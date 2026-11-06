@@ -1,0 +1,8 @@
+url: https://github.com/Mu-scorpio/dsh-mineru
+name: Mu-scorpio/dsh-mineru
+category: docs
+description:
+  en: 'DeepSeek Harness plugin for MinerU: high-accuracy PDF parsing into Markdown with formulas, tables, OCR, auto directory detection, and smart chunking.'
+  zh: 'MinerU PDF 文档解析插件：高精度提取公式与表格、智能长文档分片、原生目录选择与解析状态持久化。'
+icon: https://raw.githubusercontent.com/Mu-scorpio/dsh-mineru/main/assets/icon-180.png
+tarball: https://github.com/Mu-scorpio/dsh-mineru/releases/download/v1.0.0/dsh-mineru-1.0.0.tgz
