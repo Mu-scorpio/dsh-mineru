@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="MinerU">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#12395c"/>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="none" stroke="#2f9c95" stroke-width="2"/>
+  <path d="M21 15h16l8 8v26H21z" fill="#f4f7fb" stroke="#0d2b45" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M37 15v8h8" fill="#cfe3f3" stroke="#0d2b45" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M27 31h13M27 36h10" stroke="#2f9c95" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M40 41l4-6 4 6-4 6z" fill="#f2b705" stroke="none"/>
+</svg>

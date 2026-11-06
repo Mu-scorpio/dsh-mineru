@@ -1,0 +1,52 @@
+{
+  "name": "dsh-mineru",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MinerU PDF parsing plugin for DeepSeek Harness (DSH): extract formulas, tables, and text into Markdown with smart chunking and interactive UI.",
+  "main": "./engine.js",
+  "exports": {
+    ".": "./engine.js",
+    "./client": "./ui.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "engine.js",
+    "ui.js",
+    "cordis.patch.yml",
+    "screenshots.json",
+    "locale/*.json",
+    "icon.svg",
+    "assets/*"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mu-scorpio/dsh-mineru.git"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "mineru",
+    "pdf",
+    "ocr",
+    "markdown"
+  ],
+  "author": "Mu-scorpio",
+  "license": "MIT"
+}

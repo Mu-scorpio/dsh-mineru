@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MinerU PDF 解析",
+    "description": "用 MinerU 解析 PDF：配置 API 密钥、选择保存目录，保存 Markdown 及可选的 docx/html。"
+  }
+}

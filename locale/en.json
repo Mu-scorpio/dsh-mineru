@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MinerU PDF parsing",
+    "description": "Parse PDFs with MinerU, configure an API key, choose an output folder, and save Markdown plus optional docx/html."
+  }
+}

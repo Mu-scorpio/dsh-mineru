@@ -1,0 +1,8 @@
+- insert:
+    - id: mineru
+      name: dsh-mineru
+      config:
+        defaultModelVersion: vlm
+        defaultLanguage: ch
+        maxFileBytes: 209715200
+        chunkPages: 200
